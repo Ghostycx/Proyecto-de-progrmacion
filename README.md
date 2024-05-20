@@ -16,12 +16,11 @@ https://youtu.be/6s4HFGD03EE?si=RsqjC391rnKXrleA
 
 el pop up es lo siguiente
  poner en pagina1
-        <div class="window-notice" id="window-notice">
+    <div class="window-notice" id="window-notice">
             <div class="content">
                 <div class="content-text">Este sitio utiliza cookies para obtener la mejor experiencia en nuestra web. 
                 <a href="terms.html">Leer más.</a></div>
                 <div class="content-buttons"><a href="#" id="close-button">Aceptar</a></div>
             </div>
         </div>
-<script src="pop_up.js"></script>
-
+<script src="pop_ups/pop_up.js"></script>
