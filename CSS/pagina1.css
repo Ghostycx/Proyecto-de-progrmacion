@@ -19,6 +19,7 @@ padding:0%;
 margin:0%;
 margin-bottom: 10px;
 }
+/*este codigo es basicamente todo lo relacionado a los botones*/
 .btn_pagina1 {
 width: 140px;
 height: auto;
@@ -233,7 +234,7 @@ background: linear-gradient(transparent, #72727288, #4b4b4b);
 background-repeat: no-repeat;
 }
 .divcentro  {
-  height: 1600px;
+  height:1400px;
   font-size: larger;
   background-color: rgba(41, 41, 41, 0.938);
   max-width: 980px;
@@ -253,7 +254,6 @@ font-size: 30px;
 text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
 display: flex;
 align-items: center;
-position: sticky;
 height: 250px;
 align-self: center;
 flex-direction: column;
