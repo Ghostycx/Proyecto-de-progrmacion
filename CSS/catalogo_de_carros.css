@@ -166,3 +166,45 @@ color: white;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
 }
+    /*catalogo imagenes*/
+  .card {
+    width: 400px;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  .card .imagecdc {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;    
+  }
+  .card .imagecdc img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: inherit;
+  transition: 0.5s ease-in-out;
+  }
+  .card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  .card:hover::after {
+    opacity: 1;
+    inset: 20px;
+  }
+  .contenidocdc {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

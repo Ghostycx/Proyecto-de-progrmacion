@@ -1,5 +1,6 @@
 * {
-    text-align: center;
+    text-align: justify;
+    padding: 0 10px 0 10px;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -8,9 +9,9 @@ body {
     color: aliceblue;
 }
 #h1{
-    color: rgba(0, 255, 221, 0.315);
+    color: white;
     text-align: center;
-    text-shadow: 3px 0px 1px white
+    text-shadow: 2px 2px 1px rgba(128, 128, 128, 0.767);
 
 }
 #p{
@@ -19,8 +20,11 @@ body {
 .div{
     border: outset;
     border-radius: 5px;
-    border-color: lightblue;
+    border-color: white;
     opacity: 90%;
+    
+    
+    
 }
 
 .div2{

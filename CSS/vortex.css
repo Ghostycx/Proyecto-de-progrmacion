@@ -163,12 +163,4 @@ float: right;
   padding: 15px 15px 15px 20px;
   text-decoration: none;
   }
-  .divcdc {
-    width: 400px;
-    aspect-ratio: 1 / 0.7;
-    border-radius: 8px;
-    position: relative;
-    cursor: pointer;
-  }
-  /**/
-  .divcdc .image-img
+  

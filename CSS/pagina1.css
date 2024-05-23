@@ -2,6 +2,7 @@
 body { 
   box-sizing: border-box;
   margin:0;
+  padding:0;
   background-image: url(..//IMAGENES/fondiu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,7 +235,7 @@ background: linear-gradient(transparent, #72727288, #4b4b4b);
 background-repeat: no-repeat;
 }
 .divcentro  {
-  height:1400px;
+  height: 1500px;
   font-size: larger;
   background-color: rgba(41, 41, 41, 0.938);
   max-width: 980px;
@@ -403,17 +404,4 @@ color:white;
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
-}
-
-#title {
-  width: 100%;
-  position: absolute;
-  padding: 0px;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 27px;
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Open Sans', sans-serif;
-  z-index: 9999;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
