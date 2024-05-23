@@ -7,11 +7,11 @@ body {
     box-sizing: border-box;
       margin:0;
       background-image: url(..//IMAGENES/fondiu.jpg);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment:fixed ; 
       font-family: Arial, Helvetica, sans-serif;
-      color: #006AB8;
+      color: white;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     margin: 0%;
     background-color: #080d11;
     border:2px solid black;
-    box-shadow: 0 0 35px 0 blue;
+    box-shadow: 0 0 35px 0 white;
     font-size: 30px;
     text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
     display: flex;
@@ -117,10 +117,6 @@ box-sizing: border-box;
 font-family: "Open Sans";
 }
 
-body{
-    background-image: url(..//IMAGENES/fondiu.jpg);
-    background-size: cover;
-}
 
 
 
@@ -170,17 +166,3 @@ color: white;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

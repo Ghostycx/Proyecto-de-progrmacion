@@ -24,3 +24,32 @@ el pop up es lo siguiente
             </div>
         </div>
 <script src="pop_ups/pop_up.js"></script>
+
+
+
+
+maes aqu en adelante tienen que poner todo tipo de links o cosas que uticen
+
+
+
+linder
+1-
+2-
+3-
+4-
+mc cook
+1-
+2-
+3-
+4-
+Daniel 
+1-
+2-
+3-
+4-
+papuallan rico sabroso hermoso junto a varon
+1-
+2-
+3-
+4-
+5-
