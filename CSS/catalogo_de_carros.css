@@ -3,6 +3,7 @@ margin: 10px;
 text-align: center; 
 }
 
+/*especificaciones para todo el cuerpo de la pagina*/
 body { 
     box-sizing: border-box;
       margin:0;
@@ -10,10 +11,11 @@ body {
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment:fixed ; 
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: arial;
       color: white;
 }
 
+/*Codigo de la cabecera principal*/
 header {
     padding: 0%;
     margin: 0%;
@@ -27,10 +29,13 @@ header {
     align-items: center;
     position: -webkit-sticky;
   }
+
+  /*Ancho del codigo para el logo de la cabecera principal de la pagina*/
   .Logo {
     width: 7%;
 }
 
+/*Codigo de todo lo relacionado a los botones de la cabecera principal*/
 .btn_pagina1 {
     width: 140px;
     height: auto;
@@ -166,6 +171,11 @@ color: white;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
 }
+
+.divcdc {
+  justify-content: space-around;
+  display: flex;
+}
     /*catalogo imagenes*/
   .card {
     width: 400px;
@@ -196,10 +206,16 @@ text-decoration: none;
     opacity: 0;
     transition: 0.4s ease-in-out;
   }
+  .card:hover img {
+    filter: grayscale(1) brightness(0.4);
+
+  } 
   .card:hover::after {
     opacity: 1;
     inset: 20px;
   }
+
+  /*Estas son como las cartas de informaacion de los carros dentro del catalogo*/
   .contenidocdc {
     width: 80%;
     position: absolute;
@@ -207,4 +223,18 @@ text-decoration: none;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .txt_catalogo {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-out;
+    z-index: 2;  
+  }
+  .txt_catalogo:hover {
+    transition: 0.2s ease-out;
+    opacity: 0;
   }
