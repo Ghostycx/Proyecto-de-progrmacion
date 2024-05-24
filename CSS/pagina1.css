@@ -1,11 +1,10 @@
 /*este es el codigo css de la pagina principal*/
+
 body { 
-  box-sizing: border-box;
+  box-sizing:border-box;
   margin:0;
   padding:0;
   background-image: url(..//IMAGENES/fondiu.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
   color: #006AB8;
   background-color: #000000;
@@ -13,12 +12,55 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*El ancho del logo, colocado en el header*/
+.Logo {
+  width: 100px;
+}
+
+/*Codigo CSS de la cabecera principal*/
+header {
+padding: 0%;
+margin: 0%;
+margin-bottom: 50px;
+background-color: #080d11;
+border:2px solid black;
+box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+font-size: 30px;
+text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/*El siguiente codigo es basicamente para decirle al navegador como poner el header se alguien modifica el tamaño*/
+@media (min-width:600px){
+  header {
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+  }
+}
+
+/*Titulos de la pagina principal*/
 h1, h2 {
 text-align: center;
 color:white;
 padding:0%;
 margin:0%;
+margin-right: auto;
 margin-bottom: 10px;
+}
+
+h4 {
+font-weight: bold;
+margin: 0;
+text-align: center;
+}
+
+h4 {
+font-size: 25px;
+text-align: center;
 }
 /*este codigo es basicamente todo lo relacionado a los botones*/
 .btn_pagina1 {
@@ -98,85 +140,27 @@ button {
   border: none;
   background: transparent;
 }
-.principal {
-  padding: 5px;
-  margin: 0%;
-}
-header {
-padding: 0%;
-margin: 0%;
-background-color: #080d11;
-border:2px solid black;
-box-shadow: 0 0 35px 0 rgb(255, 255, 255);
-font-size: 30px;
-text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: sticky;
-}
 
-
-.inicio {
-display: flex;
-flex-direction: column;
-}
-
-.inicio a {
-margin-bottom: 10px;
-}
-
-h4 {
-font-weight: bold;
-margin: 0;
-text-align: center;
-}
-.Logo {
-  width: 100px;
-}
-.logo:hover {
-  background-color: #000000;
-}
-
+/*Codigo del cuadrado grande la pagina principal o en otras palabras todo el contenido de la pagina*/
 .centered-div {
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 border-color: #009;
-/* Estilos adicionales para el div centrado */
-}
-h4 {
-font-size: 25px;
-text-align: center;
-}
-.window-notice {
-background: rgba(33, 41, 52, .85);
-bottom: 0;
-display: flex;
-left: 0;
-position: fixed;
-right: 0;
-top: 0;
-z-index: 999;
-transition: background .6s;
 }
 
-.window-notice .content {
-background: #fff;
-border-radius: 2px;
-box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
-box-sizing: content-box;
-display: flex;
-flex-direction: column;
-margin: auto;
-max-width: 600px;
-min-width: 320px !important;
-overflow: hidden;
-position: relative;
-width: 100%;
-padding: 2rem;
-font-size: 1.3rem;
+.divcentro  {
+  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
+  text-align:center;
+  height: auto;
+  font-size: larger;
+  background-color: rgba(41, 41, 41, 0.938);
+  max-width: 980px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-buttons {
@@ -234,31 +218,7 @@ font-family: sans-serif;
 background: linear-gradient(transparent, #72727288, #4b4b4b);
 background-repeat: no-repeat;
 }
-.divcentro  {
-  height: 1500px;
-  font-size: larger;
-  background-color: rgba(41, 41, 41, 0.938);
-  max-width: 980px;
-  border-radius: 7px;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-footer {
-text-align: center;
-padding: 0%;
-margin: 0%;
-background-color: #080d11;
-border:2px solid black;
-box-shadow: 0 0 35px 0 rgb(255, 255, 255);
-font-size: 30px;
-text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
-display: flex;
-align-items: center;
-height: 250px;
-align-self: center;
-flex-direction: column;
-}
+
 .Botons {
 text-align: center;
 font-size: 18px;
@@ -299,10 +259,39 @@ transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
 transition-duration: 400ms;
 transition-property: width, left;
 }
-a {
-text-decoration: none;
-color:white;
+
+
+/*ESte siguiente codigo se trata del pop up (no tocar) aun no se va a poner */
+.window-notice {
+background: rgba(33, 41, 52, .85);
+bottom: 0;
+display: flex;
+left: 0;
+position: fixed;
+right: 0;
+top: 0;
+z-index: 999;
+transition: background .6s;
 }
+
+.window-notice .content {
+background: #fff;
+border-radius: 2px;
+box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+box-sizing: content-box;
+display: flex;
+flex-direction: column;
+margin: auto;
+max-width: 600px;
+min-width: 320px !important;
+overflow: hidden;
+position: relative;
+width: 100%;
+padding: 2rem;
+font-size: 1.3rem;
+}
+
+/*Codigo del carousel, aun se ocupa ver como poner texto abajo*/
 .carousel {
   position: relative;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -404,4 +393,70 @@ color:white;
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
+}
+
+/*Codigo del footer*/
+footer {
+text-align: center;
+padding: 0%;
+margin: 0%;
+background-color: #080d11;
+border:2px solid black;
+box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+font-size: 30px;
+text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+display: flex;
+align-items: center;
+height: 150px;
+align-self: center;
+flex-direction: column;
+}
+
+/*Los links que se encuentran dentro del footer*/
+.Botons {
+  text-align: center;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  }
+  
+  .Botons:focus,
+  .Botons:hover {
+  color: #fff;
+  }
+  
+  .Botons:focus:after,
+  .Botons:hover:after {
+  width: 100%;
+  left: 0%;
+  }
+  
+  .Botons:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+  }
+  
+  
+/*Codigo solo para los enlaces del footer*/
+a {
+text-decoration: none;
+color:white;
 }
