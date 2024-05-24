@@ -5,6 +5,7 @@ text-align: center;
 
 /*especificaciones para todo el cuerpo de la pagina*/
 body { 
+    font-family: Arial;
     box-sizing: border-box;
       margin:0;
       background-image: url(..//IMAGENES/fondiu.jpg);
@@ -224,17 +225,15 @@ text-decoration: none;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .txt_catalogo {
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    transition: 0.2s ease-out;
-    z-index: 2;  
+  .txt_catalogo::after {
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-timing-function: ;
+  transition-delay: 100ms;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
   }
-  .txt_catalogo:hover {
-    transition: 0.2s ease-out;
-    opacity: 0;
+  .txt_catalogo:hover::after {
+  opacity: 1;
   }
