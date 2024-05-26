@@ -1,0 +1,141 @@
+/* Variables de color */
+:root {
+    --primary-color: #0ff; /* Cyan */
+    --primary-dark-color: #0cc; /* Cyan oscuro */
+    --background-color: #000; /* Negro */
+    --foreground-color: #111; /* Gris oscuro */
+    --text-color: #fff; /* Blanco */
+    --input-background-color: #222; /* Gris más claro */
+}
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--foreground-color);
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+header img.logo {
+    height: 50px;
+}
+
+header .texto {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header a button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header a button:hover {
+    background-color: var(--primary-dark-color);
+    transform: scale(1.05);
+}
+
+main {
+    width: 80%;
+    max-width: 600px;
+    background-color: var(--foreground-color);
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+form fieldset {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form legend {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+form input[type="email"], form input[type="password"], form input[type="text"], form input[type="tel"], form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="email"], form input[type="password"], form input[type="text"], form input[type="tel"] {
+    border: 1px solid var(--primary-color);
+    background-color: var(--input-background-color);
+    color: var(--text-color);
+}
+
+form input[type="email"]:focus, form input[type="password"]:focus, form input[type="text"]:focus, form input[type="tel"]:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--primary-color);
+}
+
+form input[type="submit"] {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--primary-dark-color);
+    transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    form input[type="email"], form input[type="password"], form input[type="text"], form input[type="tel"], form input[type="submit"] {
+        width: calc(100% - 20px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
