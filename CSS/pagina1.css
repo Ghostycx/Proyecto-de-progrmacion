@@ -149,10 +149,11 @@ left: 50%;
 transform: translate(-50%, -50%);
 border-color: #009;
 }
-
+/*shaktar
+bromtor*/
 .divcentro  {
   box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
-  text-align:center;
+  text-align:left;
   height: auto;
   font-size: larger;
   background-color: rgba(41, 41, 41, 0.938);

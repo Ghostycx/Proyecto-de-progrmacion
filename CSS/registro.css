@@ -1,14 +1,13 @@
-/* Variables de color */
+
 :root {
-    --primary-color: #0ff; /* Cyan */
-    --primary-dark-color: #0cc; /* Cyan oscuro */
-    --background-color: #000; /* Negro */
-    --foreground-color: #111; /* Gris oscuro */
-    --text-color: #fff; /* Blanco */
-    --input-background-color: #222; /* Gris más claro */
+    --primary-color: #0ff; 
+    --primary-dark-color: #0cc; 
+    --foreground-color: #111; 
+    --text-color: #fff;
+    --input-background-color: #222; 
 }
 
-/* Global styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +17,9 @@ body {
     background-color: var(--background-color);
     font-family: Arial, sans-serif;
     color: var(--text-color);
+    background-image: url(..//IMAGENES/fondiu_3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 header {
@@ -31,7 +33,7 @@ header {
 }
 
 header img.logo {
-    height: 50px;
+    height: 100px;
 }
 
 header .texto {
@@ -39,20 +41,6 @@ header .texto {
     text-align: center;
 }
 
-header a button {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-header a button:hover {
-    background-color: var(--primary-dark-color);
-    transform: scale(1.05);
-}
 
 main {
     width: 80%;
@@ -139,3 +127,81 @@ form input[type="submit"]:hover {
         transform: translateY(0);
     }
 }
+.btn_pagina1 {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    }
+    
+    .btn_pagina1:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    }
+    
+    .btn_pagina1:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    }
+    
+    .btn_pagina1:hover {
+    box-shadow: 0 5px 15px rgba(253, 253, 253, 0.5);
+    }
+    
+    .btn_pagina1:hover:before {
+    border-color: #ffffff;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+    }
+    
+    .btn_pagina1:hover:after {
+    border-color: #1100ff;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+    }
+    
+    button {
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    }
+    
+    button {
+      color: rgb(233, 233, 233);
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+    
