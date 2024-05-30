@@ -101,7 +101,7 @@ a:hover {
     }
 }
 
-/* Animations */
+/*! Animaciones */
 @keyframes fadeIn {
     from {
         opacity: 0;

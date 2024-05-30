@@ -173,7 +173,7 @@ text-decoration: none;
 }
 
 .divcdc {
-  justify-content: space-evenly;
+  justify-content: space-evenly ;
   display: flex;
   font-family: Arial;
 }

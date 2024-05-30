@@ -194,7 +194,7 @@ text-align: justify;
 }
 .inicio_y_registro{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 float: right;
 }
 .conteiner {
