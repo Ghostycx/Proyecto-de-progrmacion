@@ -1,6 +1,6 @@
 .informacion_de_catalogo{
 margin: 10px;
-text-align: center; 
+text-align: left; 
 }
 
 /*especificaciones para todo el cuerpo de la pagina*/
@@ -251,4 +251,16 @@ text-decoration: none;
 .card:hover .content P {
   opacity: 1;
   transform: translateY(0);
+}
+.divcentro  {
+  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
+  text-align:left;
+  height: auto;
+  font-size: larger;
+  background-color: rgba(41, 41, 41, 0.938);
+  max-width: 1470px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
