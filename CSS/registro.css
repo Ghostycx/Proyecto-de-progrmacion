@@ -1,4 +1,4 @@
-
+/*colores predefinidos desde la raiz*/
 :root {
     --primary-color: #0ff; 
     --primary-dark-color: #0cc; 
@@ -8,7 +8,7 @@
     --color-extra: #00ff;
 }
 
-
+/*estilos para todo lo que se encuentre dentro del body*/
 body {
     margin: 0;
     padding: 0;
@@ -23,6 +23,7 @@ body {
     background-size:cover;
 }
 
+/*estilos de la cabecera principal tanto la imagen y el texto*/
 header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +43,8 @@ header .texto {
     text-align: center;
 }
 
-
+/*estilo relacionado a todo lo principal de la pagina osea el formulario para que el ususario
+pueda registrarse dentro de la pagina web*/
 main {
     width: 80%;
     max-width: 600px;
@@ -106,7 +108,8 @@ form input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
-/* Responsive design */
+/*hace que el main osea lo principal o en otras palabras el formulario para registrarse en el sitio web*/
+
 @media (max-width: 600px) {
     main {
         width: 90%;
@@ -118,6 +121,7 @@ form input[type="submit"]:hover {
     }
 }
 
+/*animaciones de todo el formulario de lo main*/
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -128,6 +132,8 @@ form input[type="submit"]:hover {
         transform: translateY(0);
     }
 }
+
+/*estilo para el boton del encabezado principal de iniciar sesion*/
 .btn_pagina1 {
     width: 140px;
     height: auto;

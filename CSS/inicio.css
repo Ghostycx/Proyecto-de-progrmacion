@@ -1,4 +1,4 @@
-/* Global styles */
+/* estilos para todo el body */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
 }
-
+/*estilo para todo el formulario en general*/
 .inicio_sesion {
     display: flex;
     justify-content: center;
@@ -22,6 +22,7 @@ body {
     width: 100%;
 }
 
+/*estilos para el fieldset y en si todo el formulario*/
 fieldset {
     display: flex;
     flex-direction: column;
@@ -43,6 +44,7 @@ legend {
     text-align: center;
 }
 
+/*Estilos para los diferentes inputs que se encuentran en el formulario*/
 input[type="text"], input[type="password"], button[type="submit"] {
     width: calc(100% - 20px);
     padding: 15px; 
@@ -59,6 +61,7 @@ input[type="text"]:focus, input[type="password"]:focus {
     box-shadow: 0 0 10px #0ff;
 }
 
+/*ëstilos para el boton de envio*/
 button[type="submit"] {
     width: calc(100% - 20px);
     background-color: #0ff; 
@@ -78,6 +81,7 @@ label, p {
     margin: 15px 0; 
     color: #fff; 
 }
+/*estilos para todo lo relacionado a los enlaces de la pagina*/
 
 a {
     color: #0ff; 
@@ -89,6 +93,8 @@ a:hover {
     color: #0cc;
 }
 
+
+/*codigo para hacer el formulario responsive*/
 
 @media (max-width: 600px) {
     fieldset {
@@ -102,6 +108,7 @@ a:hover {
 }
 
 /*! Animaciones */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -112,6 +119,7 @@ a:hover {
         transform: translateY(0);
     }
 }
+/*estilos para el checkbox*/
 input[type="checkbox"] {
 width:auto;
 color:gray;
