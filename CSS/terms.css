@@ -9,18 +9,21 @@ body {
     padding: 0;
     font-size: medium;
     font-family:Arial, Helvetica, sans-serif;
-   
 }
+
+/*titulos de cada una de los puntos a tomar en cuenta*/
 #h1{
     color: rgb(191, 191, 197);
     font-size:20px;
     text-align: center;
     text-shadow: 2px 2px 1px rgba(128, 128, 128, 0.767);
 }
+/*¨parrafos que contienen la informacion a tomar en cuenta*/
 #p{
     text-align: left;
     font-size:18px;
 }
+/*es basicamente todo el contenedor que rodea a la info*/
 .div{
     border: 2px solid white;
     border-radius: 5px;

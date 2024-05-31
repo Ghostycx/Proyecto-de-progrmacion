@@ -2,7 +2,7 @@
   margin: 10px;
   text-align: center; 
   }
-
+/*estilos para todos los elementos que se encuentran dentro del body*/
 body { 
   box-sizing: border-box;
     margin:0;
@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-
+/*estilos del encabezado principal de la pagina de vortex*/
 header {
   padding: 0%;
   margin: 0%;
@@ -29,10 +29,12 @@ header {
   position: -webkit-sticky;
 }
 
+/*estilo para definir el ancho del logo que se encuentra dentro del encabezado principal*/
 .Logo {
   width: 7%;
 }
 
+/*estilos para los botones que se encuentran en el mismo encabezado*/
 .btn_pagina1 {
   width: 140px;
   height: auto;
@@ -102,21 +104,21 @@ button {
   background: transparent;
 }
 
+/*estilos utilizados para definir la direccion de los mismos botones*/
 .inicio_y_registro{
   display: flex;
 flex-direction: column;
 float: right;
 }
+
+/*estilos para todos los elementos globales*/
 *{
   margin: 0%; 
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans";
   }
-  
-  
-  
-  
+
   *nav{
   max-width: 900px;
   margin: 30%;
@@ -126,6 +128,7 @@ float: right;
   
   }
   
+  /*todo lo relacionado a el menu horizontal*/
   .menu-horizontal{
   list-style: none;
   display: flex;
