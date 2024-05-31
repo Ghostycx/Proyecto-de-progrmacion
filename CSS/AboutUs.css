@@ -256,3 +256,16 @@ header {
   width: 200px;
   height: 250px;
 }
+
+.info {
+  padding:5px;
+  margin:auto;
+  border:2px solid white;
+  text-align: center;
+  color:white;
+  font-size:22px;
+  
+}
+.texto {
+  color: white;
+}

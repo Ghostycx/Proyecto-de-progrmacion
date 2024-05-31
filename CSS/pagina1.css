@@ -24,7 +24,7 @@ padding: 0%;
 margin: 0%;
 margin-bottom: 50px;
 background-color: #080d11;
-border:2px solid black;
+border:2px solid grey;
 box-shadow: 0 0 35px 0 rgb(255, 255, 255);
 font-size: 30px;
 text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
@@ -42,6 +42,12 @@ z-index: 40;
     flex-direction: row;
     padding: 0px 30px;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+      font-size: 18px;
   }
 }
 
