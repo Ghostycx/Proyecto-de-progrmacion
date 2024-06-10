@@ -25,6 +25,7 @@ body {
 
 /*estilos de la cabecera principal tanto la imagen y el texto*/
 header {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -204,11 +205,10 @@ form input[type="submit"]:hover {
     }
     
     button {
-      color: rgb(233, 233, 233);
-      text-decoration: none;
-      cursor: pointer;
-      outline: none;
-      border: none;
-      background: transparent;
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
     }
-    
