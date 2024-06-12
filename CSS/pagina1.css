@@ -190,7 +190,9 @@ text-transform: uppercase;
 .content-buttons a:hover {
 background-color: #006AB8;
 }
-
+.catalogo {
+   margin-left:85%;
+}
 .content-text a {
 color: #0080DE;
 text-decoration: none;
@@ -393,7 +395,7 @@ font-size: 1.3rem;
   color: #fff;
   cursor: pointer;
   display: block;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .carousel-bullet:hover {
