@@ -252,8 +252,8 @@ button {
 
 /*estilos de el div centro*/
 .divcentro {
-  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
   text-align: left;
+  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
   height: auto;
   font-size: larger;
   background-color: rgba(41, 41, 41, 0.938);
@@ -262,4 +262,8 @@ button {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+ margin-top: 50px;
+}
+.maincentro {
+  margin-top: 50px;
 }
