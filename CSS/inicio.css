@@ -127,3 +127,7 @@ color:gray;
 input[type="checkbox"]:hover {
  color: green;
 }
+
+.corporate{
+    text-align: right;
+}

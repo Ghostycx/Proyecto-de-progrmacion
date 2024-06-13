@@ -122,7 +122,10 @@ button {
   transition-duration: 0.5s;
   cursor: pointer;
 }
-
+.Allan {
+  width: 200px;
+  height: 250px;
+}
 .profileDiv {
   z-index: 2;
   width: 100%;
@@ -225,3 +228,61 @@ button {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+.Botons {
+  text-align: center;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  }
+  
+  .Botons:focus,
+  .Botons:hover {
+  color: #fff;
+  }
+  
+  .Botons:focus:after,
+  .Botons:hover:after {
+  width: 100%;
+  left: 0%;
+  }
+  
+  .Botons:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+  }
+  footer {
+    display: grid;
+    place-items: bottom;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: #080d11;
+    border:2px solid black;
+    box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    align-self: center;
+    flex-direction: column;
+    width: 100%;
+    }

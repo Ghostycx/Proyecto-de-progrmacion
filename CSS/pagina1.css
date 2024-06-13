@@ -4,7 +4,7 @@ body {
   box-sizing:border-box;
   margin:0;
   padding:0;
-  background-image: url(..//IMAGENES/Fondomqrg.jpg);
+  background-image: url(..//IMAGENES/fondo_nuevo.jpg);
   font-family: Arial, Helvetica, sans-serif;
   color: #006AB8;
   background-color: #000000;
@@ -156,7 +156,6 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-border-color: #009;
 }
 /*shaktar
 bromtor*/
@@ -305,7 +304,7 @@ font-size: 1.3rem;
 /*Codigo del carousel, aun se ocupa ver como poner texto abajo*/
 .carousel {
   position: relative;
-  border:2px solid navy;
+  border:2px solid #ccc;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
   margin-top: 26px;
 }
