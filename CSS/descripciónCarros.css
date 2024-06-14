@@ -1,16 +1,16 @@
 /*este es el codigo css de la pagina principal*/
 
 body { 
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-  background-image: url(..//IMAGENES/fondo_nuevo.jpg);
-  font-family: Arial, Helvetica, sans-serif;
-  color: #006AB8;
-  background-color: #000000;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-image: url(..//IMAGENES/fondo_nuevo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #006AB8;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*El ancho del logo, colocado en el header*/
@@ -169,6 +169,7 @@ transform: translate(-50%, -50%);
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
 }
 
 .content-buttons {
@@ -300,115 +301,6 @@ padding: 2rem;
 font-size: 1.3rem;
 }
 
-/*Codigo del carousel, aun se ocupa ver como poner texto abajo*/
-.carousel {
-  position: relative;
-  border:2px solid #ccc;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-  margin-top: 26px;
-}
-
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  -webkit-transition: opacity 0.6s ease-out;
-  transition: opacity 0.6s ease-out;
-}
-
-.carousel-item img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.carousel-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 35px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 40px;
-  z-index: 10;
-}
-
-.carousel-control.prev {
-  left: 2%;
-  top:27%;
-  bottom:27%;
-}
-
-.carousel-control.next {
-  right: 2%;
-  top:27%;
-  bottom:27%;
-}
-
-.carousel-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 25px;
-}
-
-.carousel-bullet:hover {
-  color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-  color: #428bca;
-}
-
 /*Codigo del footer*/
 footer {
 text-align: center;
@@ -428,47 +320,47 @@ flex-direction: column;
 
 /*Los links que se encuentran dentro del footer*/
 .Botons {
-  text-align: center;
-  font-size: 18px;
-  color: #e1e1e1;
-  font-family: inherit;
-  font-weight: 800;
-  cursor: pointer;
-  position: relative;
-  border: none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-  }
-  
-  .Botons:focus,
-  .Botons:hover {
-  color: #fff;
-  }
-  
-  .Botons:focus:after,
-  .Botons:hover:after {
-  width: 100%;
-  left: 0%;
-  }
-  
-  .Botons:after {
-  content: "";
-  pointer-events: none;
-  bottom: -2px;
-  left: 50%;
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background-color: #fff;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: width, left;
-  }
-  
-  
+    text-align: center;
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    }
+    
+    .Botons:focus,
+    .Botons:hover {
+    color: #fff;
+    }
+    
+    .Botons:focus:after,
+    .Botons:hover:after {
+    width: 100%;
+    left: 0%;
+    }
+    
+    .Botons:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+    }
+    
+    
 /*Codigo solo para los enlaces del footer*/
 a {
 text-decoration: none;
@@ -480,34 +372,7 @@ color:white;
 
 }
 **/
-.reunion{
-  height: 300px;
-  display: flex;
-  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
-  margin-right: 600px;
-  height: auto;
-  width: 100%;
-  background-color: rgba(41, 41, 41, 0.938);
-  border-radius: 7px;
-  margin-top: 10px;
-  margin-bottom: 4%;
-}
-
-
-.imagen{
- margin-top: 50px;
-  height: 350px;
-  width: 650px;
-  margin-bottom: 50px;
-}
-
-.equipo{
-  margin-top: 50px;
-  width: 1000px;
-  color: white;
-  font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
-  margin-right: 100px;
-
+img {
+    width: 100%;
 }
 

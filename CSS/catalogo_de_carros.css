@@ -32,9 +32,6 @@ header {
 }
 
 /*Ancho del codigo para el logo de la cabecera principal de la pagina*/
-.Logo {
-  width: 8%;
-}
 
 /*Codigo de todo lo relacionado a los botones de la cabecera principal*/
 .btn_pagina1 {
@@ -329,4 +326,12 @@ a {
     align-self: center;
     flex-direction: column;
     width: 100%;
+    }
+    a {
+
+      margin: 0%;
+      width: px;
+    }
+    .Logo  {
+    width: 100px;
     }
