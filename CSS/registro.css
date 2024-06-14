@@ -42,6 +42,7 @@ header img.logo {
 header .texto {
     flex-grow: 1;
     text-align: center;
+    margin-left:10%;
 }
 
 /*estilo relacionado a todo lo principal de la pagina osea el formulario para que el ususario
