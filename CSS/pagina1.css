@@ -36,6 +36,7 @@ top:0;
 z-index: 40;
 }
 
+
 /*El siguiente codigo es basicamente para decirle al navegador como poner el header se alguien modifica el tamaño*/
 @media (min-width:600px){
   header {
@@ -477,12 +478,13 @@ text-decoration: none;
 color:white;
 }
 
-/**
-.reunion{
-
+.siguiente_area {
+  margin:40px;
 }
-**/
-.reunion{
+
+
+/*cuadros de informacion*/
+.cuadros_de_info{
   font-family: Arial, Helvetica, sans-serif;
   height: 300px;
   display: flex;
@@ -495,31 +497,147 @@ color:white;
   margin-top: 10px;
   margin-bottom: 4%;
   margin-left: 2%;
+  padding-top:10px;
 }
-
-
 .imagen{
- margin-top: 50px;
-  height: 350px;
-  width: 650px;
-  margin-bottom: 50px;
+  border-radius: 5%;
+  margin-top: 40px;
+  height: 400px;
+  width: 800px;
+  margin-bottom: 40px;
+  margin-right:40px;
+  margin-left:40px;
 }
-
 .equipo{
-  margin-top: 50px;
-  width: 1000px;
+  position: relative;
+  top:5%;
+  height:0;
+  margin-top: 50px; 
+  width: 1050px;
   color: white;
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
   margin-right: 100px;
-
+  margin-left:50px;
 }
-
 .titulo1 {
-  text-align: center;
-  margin-top: 30px;
+  position:absolute;
+  right:25%;
+  margin-bottom: 30px;
+  margin-top:10px;
   margin-left: 30px;
-
 }
 
- 
+/*segundo cuadro de info*/
+.cuadros_de_infodos{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
+  margin-right: 600px;
+  height: auto;
+  width: 95%;
+  background-color: rgba(41, 41, 41, 0.938);
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 4%;
+  margin-left: 2%;
+  padding-top:10px;
+}
+
+.titulo1dos {
+  position:absolute;
+  left:20%;
+  margin-bottom: 30px;
+  margin-top:10px;
+  margin-left: 30px;
+}
+
+.cuadros_de_infotres{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
+  margin-right: 600px;
+  height: auto;
+  width: 95%;
+  background-color: rgba(41, 41, 41, 0.938);
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 4%;
+  margin-left: 2%;
+  padding-top:10px;
+}
+
+.titulo1tres {
+  position:absolute;
+  right:22%;
+  margin-bottom: 30px;
+  margin-top:10px;
+  margin-left: 30px;
+}
+/*las 3 tarjetas que se encuentran casi al final de la pagina*/
+.mini_tarjetas {
+  margin:50px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.tarjetas {
+  border-radius: 10%;
+  width:400px;
+  height:400px;
+  animation: zoom_in;
+}
+
+.tarjetas {
+transition: transform 0.5s ease;
+}
+.tarjetas:hover {
+transform: scale(1.05);
+}
+.columna {
+  flex-direction: column;
+}
+
+.info {
+  font-size: 20px;
+  color:white;
+  width: 400px;
+}
+
+h3 {
+  border-bottom:2px solid gray;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*cuadrado de quieres descubrir mas modelos*/
+.mas_info a {
+  cursor:pointer;
+  font-size: large;
+  padding:20px;
+  box-sizing: border-box;
+  margin-left:37%;
+  color: #000000;
+  animation: background_color 10s linear infinite; 
+
+}
+@keyframes background_color {
+0% {
+background-color:#fff;
+}
+50%{
+background-color:#0080DE;
+}
+100% {
+  background-color:gray;
+}
+}
+
+.mas_info {
+  font-size: large;
+  margin:50px;
+}
