@@ -104,6 +104,9 @@ button {
   background: transparent;
 }
 
+.catalogo {
+  margin-left:60%;
+}
 /*codigo para ponerle direccion a los botones de inicio y registro de sesion*/
 .inicio_y_registro {
   display: flex;
