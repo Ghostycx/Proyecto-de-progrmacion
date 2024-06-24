@@ -641,3 +641,14 @@ background-color:#0080DE;
   font-size: large;
   margin:50px;
 }
+
+
+
+/*intento de hacer la pagina responsive*/
+
+@media screen {
+  body {
+    width: 100%;
+    height:100%;
+  }
+}
