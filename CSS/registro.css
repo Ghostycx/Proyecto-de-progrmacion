@@ -10,6 +10,7 @@
 
 /*estilos para todo lo que se encuentre dentro del body*/
 body {
+    overflow:hidden;
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,11 +22,12 @@ body {
     background-image: url(..//IMAGENES/fondiu_3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-attachment: fixed;
 }
 
 /*estilos de la cabecera principal tanto la imagen y el texto*/
 header {
-    height: 70px;
+    height:60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +61,7 @@ main {
 }
 
 form fieldset {
+    color:black;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     padding: 20px;
@@ -98,6 +101,7 @@ form input[type="email"]:focus, form input[type="password"]:focus, form input[ty
 }
 
 form input[type="submit"] {
+    width:100%;
     border: none;
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -110,7 +114,7 @@ form input[type="submit"]:hover {
     transform: scale(1.05);
 }
 
-/*hace que el main osea lo principal o en otras palabras el formulario para registrarse en el sitio web*/
+/*hace que el main, osea lo principal o en otras palabras el formulario para registrarse en el sitio web*/
 
 @media (max-width: 600px) {
     main {
