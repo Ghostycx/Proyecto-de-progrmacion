@@ -10,7 +10,8 @@
 
 /*estilos para todo lo que se encuentre dentro del body*/
 body {
-    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     display: flex;
@@ -64,7 +65,6 @@ form fieldset {
     color:black;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    padding: 20px;
     margin-bottom: 20px;
 }
 
