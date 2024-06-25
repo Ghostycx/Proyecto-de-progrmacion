@@ -301,7 +301,7 @@ padding: 2rem;
 font-size: 1.3rem;
 }
 
-/*Codigo del carousel, aun se ocupa ver como poner texto abajo*/
+/*Codigo del carousel*/
 .carousel {
   position: relative;
   border:2px solid #ccc;
