@@ -516,7 +516,7 @@ color:white;
   width: 1050px;
   color: white;
   font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial;
   margin-right: 100px;
   margin-left:50px;
 }
@@ -652,3 +652,127 @@ background-color:#0080DE;
     height:100%;
   }
 }
+/*cODIGO DE LAS FICHAS DE LOS CARROS*/
+.divcdc {
+  justify-content: space-evenly;
+  display: flex;
+  font-family: Arial;
+  margin-top: 3%;
+}
+
+.card {
+  width: 350px;
+  aspect-ratio: 1 / 0.7;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.card .image-box {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 90%;
+  border-radius: inherit;
+  transition: 0.5s ease-in-out;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid white;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.card:hover img {
+  filter: grayscale(1) brightness(0.4);
+}
+.card:hover::after {
+  opacity: 1;
+  inset: 20px;
+}
+
+.content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h2,
+.content p {
+  opacity: 0;
+  transition: 0.4s 0.2s ease;
+}
+
+.content h2 {
+  margin-bottom: 12px;
+  scale: 0.7;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d1d1d1;
+  transform: translateY(50%);
+}
+
+.card:hover .content h2 {
+  scale: 1;
+  opacity: 1;
+}
+
+.card:hover .content P {
+  opacity: 1;
+  transform: translateY(0);
+}
+  /*Codigo del boton de encargar*/
+  .botonbuy {
+    display: grid;
+    justify-content: center;
+}
+.buttoncomprar {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 10.5em;
+    height: 3.9em;
+    border: #ffffff 0.2em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    }
+    
+    .buttoncomprar:hover {
+      background-color: #012d57;
+      color: #faf4f4
+    }
+    
+    .buttoncomprar svg {
+      width: 1.6em;
+      margin: -0.2em 0.8em 1em;
+      position: absolute;
+      display: flex;
+      transition: all 0.6s ease;
+    }
+    
+    .buttoncomprar:hover svg {
+      transform: translateX(5px);
+    }
+    
+    .text {
+      margin: 0 1.5em
+    }
+    .botonvermas {
+      display: grid;
+      justify-content: center;
+      margin-bottom: 4%;
+    }

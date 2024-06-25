@@ -528,6 +528,7 @@ body {
   .Agradecimiento {
     text-align: center;
   }
+  /*Codigo del boton de encargar*/
   .botonbuy {
     display: grid;
     justify-content: center;
