@@ -1,17 +1,18 @@
-.informacion_de_catalogo{
+.informacion_de_catalogo {
   margin: 10px;
-  text-align: center; 
-  }
+  text-align: center;
+}
+
 /*estilos para todos los elementos que se encuentran dentro del body*/
-body { 
+body {
   box-sizing: border-box;
-    margin:0;
-    background-image: url(..//IMAGENES/fondiu.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed ; 
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+  margin: 0;
+  background-image: url(..//IMAGENES/fondiu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 /*estilos del encabezado principal de la pagina de vortex*/
@@ -19,7 +20,7 @@ header {
   padding: 0%;
   margin: 0%;
   background-color: #080d11;
-  border:2px solid black;
+  border: 2px solid black;
   box-shadow: 0 0 35px 0 white;
   font-size: 30px;
   text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
@@ -95,6 +96,7 @@ header {
   transform: translateX(0);
   transition: .3s transform linear, .3s height linear .5s;
 }
+
 button {
   color: black;
   text-decoration: none;
@@ -105,65 +107,66 @@ button {
 }
 
 /*estilos utilizados para definir la direccion de los mismos botones*/
-.inicio_y_registro{
+.inicio_y_registro {
   display: flex;
-flex-direction: column;
-float: right;
+  flex-direction: column;
+  float: right;
 }
 
 /*estilos para todos los elementos globales*/
-*{
-  margin: 0%; 
+* {
+  margin: 0%;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans";
-  }
+}
 
-  *nav{
+*nav {
   max-width: 900px;
   margin: 30%;
   background-color: #333;
   font-size: 20px;
   margin-top: 70px;
-  
-  }
-  
-  /*todo lo relacionado a el menu horizontal*/
-  .menu-horizontal{
+
+}
+
+/*todo lo relacionado a el menu horizontal*/
+.menu-horizontal {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  }
-  
-  .menu-horizontal > li > a{
+}
+
+.menu-horizontal>li>a {
   display: block;
   padding: 15px 20px;
   color: white;
   text-decoration: none;
-  }
-  .menu-horizontal > li:hover{
+}
+
+.menu-horizontal>li:hover {
   background-color: #009;
-  }
-      
-  .menu-vertical{
+}
+
+.menu-vertical {
   position: absolute;
   display: none;
   list-style: none;
   width: 200px;
   background-color: rgba(0, 0, 0, .5);
-  }
-  .menu-horizontal li:hover .menu-vertical{
-      display: block
-  }
-  
-  .menu-vertical li:hover{
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block
+}
+
+.menu-vertical li:hover {
   background-color: black;
-  }
-  
-  .menu-vertical li a{
+}
+
+.menu-vertical li a {
   display: block;
   color: white;
   padding: 15px 15px 15px 20px;
   text-decoration: none;
-  }
-  
+}

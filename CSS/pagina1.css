@@ -1,9 +1,9 @@
 /*este es el codigo css de la pagina principal*/
 
-body { 
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   background-image: url(..//IMAGENES/fondo_nuevo.jpg);
   font-family: Arial, Helvetica, sans-serif;
   color: #006AB8;
@@ -20,25 +20,25 @@ body {
 
 /*Codigo CSS de la cabecera principal*/
 header {
-padding: 0%;
-margin: 0%;
-margin-bottom: 50px;
-background-color: #080d11;
-border:2px solid grey;
-box-shadow: 0 0 35px 0 rgb(255, 255, 255);
-font-size: 30px;
-text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
-display: flex;
-justify-content: space-between;
-align-items: center;
-position:sticky;
-top:0;
-z-index: 40;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 50px;
+  background-color: #080d11;
+  border: 2px solid grey;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
 
 
 /*El siguiente codigo es basicamente para decirle al navegador como poner el header se alguien modifica el tamaño*/
-@media (min-width:600px){
+@media (min-width:600px) {
   header {
     flex-direction: row;
     padding: 0px 30px;
@@ -48,98 +48,100 @@ z-index: 40;
 
 @media screen and (min-width: 768px) {
   body {
-      font-size: 18px;
+    font-size: 18px;
   }
 }
 
 /*Titulos de la pagina principal*/
-h1, h2 {
-text-align: center;
-color:white;
-padding:0%;
-margin:0%;
-margin-right: auto;
-margin-bottom: 10px;
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 h4 {
-font-weight: bold;
-margin: 0;
-text-align: center;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
 }
 
 h4 {
-font-size: 25px;
-text-align: center;
+  font-size: 25px;
+  text-align: center;
 }
+
 /*este codigo es basicamente todo lo relacionado a los botones*/
 .btn_pagina1 {
-width: 140px;
-height: auto;
-float: left;
-transition: .5s linear;
-position: relative;
-display: block;
-overflow: hidden;
-padding: 15px;
-text-align: center;
-margin: 0 5px;
-background: transparent;
-text-transform: uppercase;
-font-weight: 900;
+  width: 140px;
+  height: auto;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .btn_pagina1:before {
-position: absolute;
-content: '';
-left: 0;
-bottom: 0;
-height: 4px;
-width: 100%;
-border-bottom: 4px solid transparent;
-border-left: 4px solid transparent;
-box-sizing: border-box;
-transform: translateX(100%);
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
 }
 
 .btn_pagina1:after {
-position: absolute;
-content: '';
-top: 0;
-left: 0;
-width: 100%;
-height: 4px;
-border-top: 4px solid transparent;
-border-right: 4px solid transparent;
-box-sizing: border-box;
-transform: translateX(-100%);
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
 }
 
 .btn_pagina1:hover {
-box-shadow: 0 5px 15px rgba(253, 253, 253, 0.5);
+  box-shadow: 0 5px 15px rgba(253, 253, 253, 0.5);
 }
 
 .btn_pagina1:hover:before {
-border-color: #ffffff;
-height: 100%;
-transform: translateX(0);
-transition: .3s transform linear, .3s height linear .3s;
+  border-color: #ffffff;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
 }
 
 .btn_pagina1:hover:after {
-border-color: #1100ff;
-height: 100%;
-transform: translateX(0);
-transition: .3s transform linear, .3s height linear .5s;
+  border-color: #1100ff;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
 }
 
 button {
-color: rgb(218, 218, 218);
-text-decoration: none;
-cursor: pointer;
-outline: none;
-border: none;
-background: transparent;
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
 }
 
 button {
@@ -153,15 +155,15 @@ button {
 
 /*Codigo del cuadrado grande la pagina principal o en otras palabras todo el contenido de la pagina*/
 .centered-div {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.divcentro  {
+.divcentro {
   box-shadow: 0 0 35px rgba(169, 169, 208, 0.278);
-  text-align:left;
+  text-align: left;
   height: auto;
   font-size: larger;
   background-color: rgba(41, 41, 41, 0.938);
@@ -173,138 +175,143 @@ transform: translate(-50%, -50%);
 }
 
 .content-buttons {
-text-align: center;
-margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .content-buttons a {
-text-decoration: none;
-display: inline-block;
-padding: 1rem;
-background-color: #0080DE;
-color: #FFF;
-text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #0080DE;
+  color: #FFF;
+  text-transform: uppercase;
 }
 
 .content-buttons a:hover {
-background-color: #006AB8;
+  background-color: #006AB8;
 }
+
 .catalogo {
-    margin-left:85%;
+  margin-left: 85%;
 }
+
 .content-text a {
-color: #0080DE;
-text-decoration: none;
+  color: #0080DE;
+  text-decoration: none;
 }
 
 .content-text a:hover {
-color: #006AB8;
-text-decoration: underline;
-text-align: justify;
+  color: #006AB8;
+  text-decoration: underline;
+  text-align: justify;
 }
-.inicio_y_registro{
-display: flex;
-flex-direction: row;
-float: right;
+
+.inicio_y_registro {
+  display: flex;
+  flex-direction: row;
+  float: right;
 }
+
 .conteiner {
-display: flex; 
-width: 90%;
-padding: 100px;
-height: 100px ;
-align-self: center;
-justify-content: center;
-align-items: center;
+  display: flex;
+  width: 90%;
+  padding: 100px;
+  height: 100px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }
+
 .conteiner_data {
-text-align: left;
-color:white;
-margin: auto;
-margin-top: 20px;
-align-items: center;
-justify-content: center;
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-background-repeat: no-repeat;
+  text-align: left;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
 }
 
 .Botons {
-text-align: center;
-font-size: 18px;
-color: #e1e1e1;
-font-family: inherit;
-font-weight: 800;
-cursor: pointer;
-position: relative;
-border: none;
-background: none;
-text-transform: uppercase;
-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-transition-duration: 400ms;
-transition-property: color;
+  text-align: center;
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
 }
 
 .Botons:focus,
 .Botons:hover {
-color: #fff;
+  color: #fff;
 }
 
 .Botons:focus:after,
 .Botons:hover:after {
-width: 100%;
-left: 0%;
+  width: 100%;
+  left: 0%;
 }
 
 .Botons:after {
-content: "";
-pointer-events: none;
-bottom: -2px;
-left: 50%;
-position: absolute;
-width: 0%;
-height: 2px;
-background-color: #fff;
-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-transition-duration: 400ms;
-transition-property: width, left;
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 
 
 /*ESte siguiente codigo se trata del pop up (no tocar) aun no se va a poner */
 .window-notice {
-background: rgba(33, 41, 52, .85);
-bottom: 0;
-display: flex;
-left: 0;
-position: fixed;
-right: 0;
-top: 0;
-z-index: 999;
-transition: background .6s;
+  background: rgba(33, 41, 52, .85);
+  bottom: 0;
+  display: flex;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  transition: background .6s;
 }
 
 .window-notice .content {
-background: #fff;
-border-radius: 2px;
-box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
-box-sizing: content-box;
-display: flex;
-flex-direction: column;
-margin: auto;
-max-width: 600px;
-min-width: 320px !important;
-overflow: hidden;
-position: relative;
-width: 100%;
-padding: 2rem;
-font-size: 1.3rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
 }
 
 /*Codigo del carousel*/
 .carousel {
   position: relative;
-  border:2px solid #ccc;
+  border: 2px solid #ccc;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
   margin-top: 26px;
 }
@@ -315,7 +322,7 @@ font-size: 1.3rem;
   width: 100%;
 }
 
-.carousel-open:checked + .carousel-item {
+.carousel-open:checked+.carousel-item {
   position: static;
   opacity: 100;
 }
@@ -355,14 +362,14 @@ font-size: 1.3rem;
 
 .carousel-control.prev {
   left: 2%;
-  top:27%;
-  bottom:27%;
+  top: 27%;
+  bottom: 27%;
 }
 
 .carousel-control.next {
   right: 2%;
-  top:27%;
-  bottom:27%;
+  top: 27%;
+  bottom: 27%;
 }
 
 .carousel-control:hover {
@@ -370,9 +377,9 @@ font-size: 1.3rem;
   color: #aaaaaa;
 }
 
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-1:checked~.control-1,
+#carousel-2:checked~.control-2,
+#carousel-3:checked~.control-3 {
   display: block;
 }
 
@@ -404,29 +411,29 @@ font-size: 1.3rem;
   color: #aaaaaa;
 }
 
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #428bca;
 }
 
 /*Codigo del footer*/
 footer {
-display: grid;
-place-items: bottom;
-text-align: center;
-padding: 0%;
-margin: 0%;
-background-color: #080d11;
-border:2px solid black;
-box-shadow: 0 0 35px 0 rgb(255, 255, 255);
-font-size: 30px;
-text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
-display: flex;
-align-items: center;
-height: 150px;
-align-self: center;
-flex-direction: column;
+  display: grid;
+  place-items: bottom;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  background-color: #080d11;
+  border: 2px solid black;
+  box-shadow: 0 0 35px 0 rgb(255, 255, 255);
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
+  display: flex;
+  align-items: center;
+  height: 150px;
+  align-self: center;
+  flex-direction: column;
 }
 
 /*Los links que se encuentran dentro del footer*/
@@ -444,20 +451,20 @@ flex-direction: column;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
-  }
-  
-  .Botons:focus,
-  .Botons:hover {
+}
+
+.Botons:focus,
+.Botons:hover {
   color: #fff;
-  }
-  
-  .Botons:focus:after,
-  .Botons:hover:after {
+}
+
+.Botons:focus:after,
+.Botons:hover:after {
   width: 100%;
   left: 0%;
-  }
-  
-  .Botons:after {
+}
+
+.Botons:after {
   content: "";
   pointer-events: none;
   bottom: -2px;
@@ -469,22 +476,22 @@ flex-direction: column;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;
-  }
-  
-  
+}
+
+
 /*Codigo solo para los enlaces del footer*/
 a {
-text-decoration: none;
-color:white;
+  text-decoration: none;
+  color: white;
 }
 
 .siguiente_area {
-  margin:40px;
+  margin: 40px;
 }
 
 
 /*cuadros de informacion*/
-.cuadros_de_info{
+.cuadros_de_info {
   font-family: Arial, Helvetica, sans-serif;
   height: 300px;
   display: flex;
@@ -497,39 +504,42 @@ color:white;
   margin-top: 10px;
   margin-bottom: 4%;
   margin-left: 2%;
-  padding-top:10px;
+  padding-top: 10px;
 }
-.imagen{
+
+.imagen {
   border-radius: 5%;
   margin-top: 40px;
   height: 400px;
   width: 800px;
   margin-bottom: 40px;
-  margin-right:40px;
-  margin-left:40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
-.equipo{
+
+.equipo {
   position: relative;
-  top:5%;
-  height:0;
-  margin-top: 50px; 
+  top: 5%;
+  height: 0;
+  margin-top: 50px;
   width: 1050px;
   color: white;
   font-size: larger;
   font-family: Arial;
   margin-right: 100px;
-  margin-left:50px;
+  margin-left: 50px;
 }
+
 .titulo1 {
-  position:absolute;
-  right:25%;
+  position: absolute;
+  right: 25%;
   margin-bottom: 30px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-left: 30px;
 }
 
 /*segundo cuadro de info*/
-.cuadros_de_infodos{
+.cuadros_de_infodos {
   font-family: Arial, Helvetica, sans-serif;
   height: 300px;
   display: flex;
@@ -543,18 +553,18 @@ color:white;
   margin-top: 10px;
   margin-bottom: 4%;
   margin-left: 2%;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .titulo1dos {
-  position:absolute;
-  left:20%;
+  position: absolute;
+  left: 20%;
   margin-bottom: 30px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-left: 30px;
 }
 
-.cuadros_de_infotres{
+.cuadros_de_infotres {
   font-family: Arial, Helvetica, sans-serif;
   height: 300px;
   display: flex;
@@ -568,78 +578,84 @@ color:white;
   margin-top: 10px;
   margin-bottom: 4%;
   margin-left: 2%;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .titulo1tres {
-  position:absolute;
-  right:22%;
+  position: absolute;
+  right: 22%;
   margin-bottom: 30px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-left: 30px;
 }
+
 /*las 3 tarjetas que se encuentran casi al final de la pagina*/
 .mini_tarjetas {
-  margin:50px;
-  display:flex;
+  margin: 50px;
+  display: flex;
   justify-content: space-between;
 }
 
 .tarjetas {
   border-radius: 10%;
-  width:400px;
-  height:400px;
+  width: 400px;
+  height: 400px;
   animation: zoom_in;
 }
 
 .tarjetas {
-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
+
 .tarjetas:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
+
 .columna {
   flex-direction: column;
 }
 
 .info {
   font-size: 20px;
-  color:white;
+  color: white;
   width: 400px;
 }
 
 h3 {
-  border-bottom:2px solid gray;
+  border-bottom: 2px solid gray;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*cuadrado de quieres descubrir mas modelos*/
 .mas_info a {
-  cursor:pointer;
+  cursor: pointer;
   font-size: large;
-  padding:20px;
+  padding: 20px;
   box-sizing: border-box;
-  margin-left:37%;
+  margin-left: 37%;
   color: #000000;
-  animation: background_color 10s linear infinite; 
+  animation: background_color 10s linear infinite;
 
 }
+
 @keyframes background_color {
-0% {
-background-color:#fff;
-}
-50%{
-background-color:#0080DE;
-}
-100% {
-  background-color:gray;
-}
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: #0080DE;
+  }
+
+  100% {
+    background-color: gray;
+  }
 }
 
 .mas_info {
   font-size: large;
-  margin:50px;
+  margin: 50px;
 }
 
 
@@ -649,9 +665,10 @@ background-color:#0080DE;
 @media screen {
   body {
     width: 100%;
-    height:100%;
+    height: 100%;
   }
 }
+
 /*cODIGO DE LAS FICHAS DE LOS CARROS*/
 .divcdc {
   justify-content: space-evenly;
@@ -667,11 +684,13 @@ background-color:#0080DE;
   position: relative;
   cursor: pointer;
 }
+
 .card .image-box {
   width: 100%;
   height: 100%;
   border-radius: inherit;
 }
+
 .card .image-box img {
   width: 100%;
   height: 100%;
@@ -694,6 +713,7 @@ background-color:#0080DE;
 .card:hover img {
   filter: grayscale(1) brightness(0.4);
 }
+
 .card:hover::after {
   opacity: 1;
   inset: 20px;
@@ -735,44 +755,47 @@ background-color:#0080DE;
   opacity: 1;
   transform: translateY(0);
 }
-  /*Codigo del boton de encargar*/
-  .botonbuy {
-    display: grid;
-    justify-content: center;
+
+/*Codigo del boton de encargar*/
+.botonbuy {
+  display: grid;
+  justify-content: center;
 }
+
 .buttoncomprar {
-    background-color: #ffffff00;
-    color: #fff;
-    width: 10.5em;
-    height: 3.9em;
-    border: #ffffff 0.2em solid;
-    border-radius: 11px;
-    text-align: right;
-    transition: all 0.6s ease;
-    }
-    
-    .buttoncomprar:hover {
-      background-color: #012d57;
-      color: #faf4f4
-    }
-    
-    .buttoncomprar svg {
-      width: 1.6em;
-      margin: -0.2em 0.8em 1em;
-      position: absolute;
-      display: flex;
-      transition: all 0.6s ease;
-    }
-    
-    .buttoncomprar:hover svg {
-      transform: translateX(5px);
-    }
-    
-    .text {
-      margin: 0 1.5em
-    }
-    .botonvermas {
-      display: grid;
-      justify-content: center;
-      margin-bottom: 4%;
-    }
+  background-color: #ffffff00;
+  color: #fff;
+  width: 10.5em;
+  height: 3.9em;
+  border: #ffffff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.buttoncomprar:hover {
+  background-color: #012d57;
+  color: #faf4f4
+}
+
+.buttoncomprar svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.buttoncomprar:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em
+}
+
+.botonvermas {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 4%;
+}

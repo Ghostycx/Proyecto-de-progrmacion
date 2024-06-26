@@ -59,12 +59,14 @@ section:nth-child(even) {
 }
 
 .dos {
-    color:black;
+    color: black;
 }
 
 a {
-    color:none;
-}.Botons {
+    color: none;
+}
+
+.Botons {
     text-align: center;
     font-size: 18px;
     color: #e1e1e1;
@@ -78,20 +80,20 @@ a {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
-    }
-    
-    .Botons:focus,
-    .Botons:hover {
+}
+
+.Botons:focus,
+.Botons:hover {
     color: #fff;
-    }
-    
-    .Botons:focus:after,
-    .Botons:hover:after {
+}
+
+.Botons:focus:after,
+.Botons:hover:after {
     width: 100%;
     left: 0%;
-    }
-    
-    .Botons:after {
+}
+
+.Botons:after {
     content: "";
     pointer-events: none;
     bottom: -2px;
@@ -103,15 +105,16 @@ a {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
-    }
-    footer {
+}
+
+footer {
     display: grid;
     place-items: bottom;
     text-align: center;
     padding: 0%;
     margin: 0%;
     background-color: #080d11;
-    border:2px solid black;
+    border: 2px solid black;
     box-shadow: 0 0 35px 0 rgb(255, 255, 255);
     font-size: 30px;
     text-shadow: 3px 3px 6px rgba(0, 0, 255, 10);
@@ -121,4 +124,4 @@ a {
     align-self: center;
     flex-direction: column;
     width: 100%;
-    }
+}
