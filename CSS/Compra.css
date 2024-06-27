@@ -489,7 +489,7 @@ a {
 
 /**
   .reunion{
-  
+
   }
   **/
 .reunion {
@@ -513,16 +513,6 @@ a {
   height: 350px;
   width: 650px;
   margin-bottom: 50px;
-}
-
-.equipo {
-  margin-top: 50px;
-  width: 1000px;
-  color: white;
-  font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
-  margin-right: 100px;
-
 }
 
 .titulo1 {
