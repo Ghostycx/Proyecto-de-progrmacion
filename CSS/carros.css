@@ -179,7 +179,7 @@ button {
   display: flex;
   font-family: Arial;
 }
-
+/*Estilos de las cartas*/
 .card {
   width: 350px;
   aspect-ratio: 1 / 0.7;
@@ -221,7 +221,7 @@ button {
   opacity: 1;
   inset: 20px;
 }
-
+/*Estilos del content*/
 .content {
   width: 80%;
   position: absolute;
@@ -248,7 +248,7 @@ button {
   color: #d1d1d1;
   transform: translateY(50%);
 }
-
+/*Estilos del hover de las cartas*/
 .card:hover .content h2 {
   scale: 1;
   opacity: 1;
@@ -275,7 +275,7 @@ button {
 a {
   color: white;
 }
-
+/*Estilos de lo que son los botones*/
 .Botons {
   text-align: center;
   font-size: 18px;
@@ -291,7 +291,7 @@ a {
   transition-duration: 400ms;
   transition-property: color;
 }
-
+/*Estilos focus, hover y after de los botones*/
 .Botons:focus,
 .Botons:hover {
   color: #fff;
@@ -316,7 +316,7 @@ a {
   transition-duration: 400ms;
   transition-property: width, left;
 }
-
+/*Estilos de lo que es el pie de la página*/
 footer {
   display: grid;
   place-items: bottom;

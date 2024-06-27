@@ -277,37 +277,6 @@ button {
   transition-property: width, left;
 }
 
-
-/*ESte siguiente codigo se trata del pop up (no tocar) aun no se va a poner */
-.window-notice {
-  background: rgba(33, 41, 52, .85);
-  bottom: 0;
-  display: flex;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 999;
-  transition: background .6s;
-}
-
-.window-notice .content {
-  background: #fff;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
-  box-sizing: content-box;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  max-width: 600px;
-  min-width: 320px !important;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  padding: 2rem;
-  font-size: 1.3rem;
-}
-
 /*Codigo del carousel*/
 .carousel {
   position: relative;

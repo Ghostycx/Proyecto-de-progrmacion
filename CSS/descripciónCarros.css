@@ -420,7 +420,7 @@ img {
 .text {
   margin: 0 1.5em
 }
-
+/*Estlos de todo lo que es el carousel*/
 .carousel {
   position: relative;
   border: 2px solid #ccc;
@@ -529,7 +529,7 @@ img {
   color: #428bca;
 }
 
-
+/*Estilo listado*/
 ol>li {
   list-style: none;
   margin-top: 2%;

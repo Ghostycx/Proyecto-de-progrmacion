@@ -143,7 +143,7 @@ button {
   transition-duration: 0.5s;
   cursor: pointer;
 }
-
+/*tamaño de las imagenes*/
 .allan {
   width: 200px;
   height: 250px;
@@ -232,13 +232,11 @@ button {
 }
 
 /*estilo para la informacion que se le brinda alos clientes o personas que visiten la pagina web*/
-
-
 .texto {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*codigo de los botones del footer*/
 .Botons {
   text-align: center;
   font-size: 18px;
