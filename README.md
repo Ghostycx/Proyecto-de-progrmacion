@@ -16,6 +16,6 @@ En la primera fase, nos enfocamos en el diseño y la estructura de la página we
 
 Esta fase ya ha sido completada owo.
 
-### Fase 2: Funcionalidad con JavaScript
+### Fase 2: Funcionalidad con JavaScript; esta fase se empieza al terminar las vacaciones creo
 
 En la segunda fase, añadiremos funcionalidad a la página web utilizando **JavaScript**. Esta fase se centrará en hacer la página interactiva y dinámica, mejorando la experiencia del usuario.
